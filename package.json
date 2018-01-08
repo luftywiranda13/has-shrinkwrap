@@ -1,0 +1,68 @@
+{
+  "name": "has-shrinkwrap",
+  "version": "0.0.0",
+  "description": "Check if `npm-shrinkwrap.json` is present in the working directory",
+  "license": "MIT",
+  "repository": "https://github.com/luftywiranda13/has-shrinkwrap",
+  "author": {
+    "name": "Lufty Wiranda",
+    "email": "lufty.wiranda@gmail.com",
+    "url": "https://www.luftywiranda.com"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "scripts": {
+    "precommit": "remove-lockfiles && xo --fix && lint-staged",
+    "lint": "xo",
+    "test:watch": "jest --watch",
+    "test": "jest --coverage"
+  },
+  "files": [
+    "index.js"
+  ],
+  "devDependencies": {
+    "eslint-config-prettier": "^2.9.0",
+    "husky": "^0.14.3",
+    "jest": "^22.0.4",
+    "lint-staged": "^6.0.0",
+    "prettier": "^1.9.2",
+    "remove-lockfiles": "^1.4.2",
+    "xo": "^0.18.2"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "lint-staged": {
+    "*.{js,json,md}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "es5"
+  },
+  "xo": {
+    "extends": "prettier",
+    "envs": [
+      "jest"
+    ]
+  },
+  "keywords": [
+    "app",
+    "detect",
+    "has",
+    "is",
+    "lockfile",
+    "lock-file",
+    "manager",
+    "module",
+    "npm",
+    "package",
+    "project",
+    "shrink-wrap",
+    "shrinkwrap",
+    "yarn"
+  ]
+}
