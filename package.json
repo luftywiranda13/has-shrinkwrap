@@ -1,6 +1,6 @@
 {
   "name": "has-shrinkwrap",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Check if `npm-shrinkwrap.json` is present in the working directory",
   "license": "MIT",
   "repository": "https://github.com/luftywiranda13/has-shrinkwrap",
