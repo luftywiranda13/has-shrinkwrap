@@ -2,7 +2,7 @@
 
 const hasShrinkwrap = require('./');
 
-test('output', () => {
+it('checks `npm-shrinkwrap.json`', () => {
   expect(hasShrinkwrap()).toBe(false);
   expect(hasShrinkwrap('fixtures/foo')).toBe(false);
   expect(hasShrinkwrap('fixtures/bar')).toBe(true);
