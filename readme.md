@@ -1,5 +1,7 @@
 # has-shrinkwrap
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/luftywiranda13/has-shrinkwrap.svg)](https://greenkeeper.io/)
+
 [![Package Version](https://img.shields.io/npm/v/has-shrinkwrap.svg?style=flat-square)](https://www.npmjs.com/package/has-shrinkwrap)
 [![Downloads Status](https://img.shields.io/npm/dm/has-shrinkwrap.svg?style=flat-square)](https://npm-stat.com/charts.html?package=has-shrinkwrap&from=2016-04-01)
 [![Build Status: Linux](https://img.shields.io/travis/luftywiranda13/has-shrinkwrap/master.svg?style=flat-square)](https://travis-ci.org/luftywiranda13/has-shrinkwrap)
